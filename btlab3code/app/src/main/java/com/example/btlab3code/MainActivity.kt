@@ -162,7 +162,7 @@ private fun CardContent(name: String) {
 @Preview(showBackground = true, widthDp = 320)
 @Composable
 fun GreetingPreview() {
-    BasicsCodelabTheme {
+    Btlab3Theme {
         Greetings()
     }
 }
@@ -170,7 +170,7 @@ fun GreetingPreview() {
 @Preview(showBackground = true, widthDp = 320, heightDp = 320)
 @Composable
 fun OnboardingPreview() {
-    BasicsCodelabTheme {
+    Btlab3Theme {
         OnboardingScreen(onContinueClicked = {})
     }
 }
